@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <body>
+      <h1>Casting is basically changing the data type of a variable.</h1>
+      If you were to cast a double to an int, you would be changing a variable that you
+      established to be a "double" or a number with a floating point value (not a whole number)
+      to a whole number. An example in which you might want to do this is in a program that
+      is made to provide a "random" number using the Math.random() function. These numbers
+      are doubles that are from 0.0-0.99999999. If we were wanting to use this function to
+      "randomly" roll a die, you would not want it to contain a fraction, because the only
+      values on a die are ints, or whole numbers from 1-6. So, after manipulating the value
+      to be on a scale of 1-6, you would need it to be a nice, round whole number.
+      To do this, you would "cast" the double as an int by typing something like: ((int)Math.random()).
+    </body>
+  </head>
+</html>
